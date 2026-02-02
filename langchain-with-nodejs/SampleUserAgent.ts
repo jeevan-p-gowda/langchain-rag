@@ -21,4 +21,6 @@ const response = await agent.invoke({
     messages: [{ role: "user", content: "What is 2+2 ?" }]
 });
 
-console.log(response);
+const aiResponse = response.messages[response.messages.length - 1].content;
+
+console.log(aiResponse);
