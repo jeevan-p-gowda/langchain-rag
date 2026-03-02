@@ -18,8 +18,8 @@ This artifact has the journey of building an RAG agent using Langchain with Type
    AWS_REGION=xxxx
    AWS_PROFILE=xxxx
    ```
-   > [!NOTE]
-   > If conversing with different model provider, change the `.env` variables accordingly.
+> [!NOTE]
+> If conversing with different model provider, change the `.env` variables accordingly.
 
 ### ⏯️Execution
 `npx tsx <relative_path_of_file>`
@@ -34,5 +34,5 @@ It's an user interface to converse with an agent
     2. Install all dependencies - `pnpm install`
     3. `cp .env.example .env` modify the env variables if required
     4. Stream UI - `pnpm dev`
-    > [!TIP]
-    > To keep updated with latest changes, remove `agent-chat-ui` repo and clone it again by https://github.com/langchain-ai/agent-chat-ui.git
+> [!TIP]
+> To keep updated with latest changes, remove `agent-chat-ui` repo and clone it again by https://github.com/langchain-ai/agent-chat-ui.git
