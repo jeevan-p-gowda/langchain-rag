@@ -1,0 +1,5 @@
+{
+  "graphs": {
+    "playwright": "./awsBedrock/rag/7-AgentUI.ts:graph"
+  }
+}
